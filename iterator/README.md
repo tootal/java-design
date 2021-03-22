@@ -1,4 +1,4 @@
-# Iterator 模式
+# Iterator（迭代器）模式
 原始代码（用数组管理书本）位于array文件夹中。
 
 BookShelf换用`java.util.Vector`实现代码位于vector文件夹中。
