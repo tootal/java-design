@@ -1,15 +1,15 @@
 package memento.game;
 
-import java.util.ArrayList;
+// import java.util.ArrayList;
 import java.util.Random;
 
 public class Gamer {
     private int money;
-    private ArrayList<String> fruits = new ArrayList<String>();
+    // private ArrayList<String> fruits = new ArrayList<String>();
     private Random random = new Random();
-    private static String[] fruitsname = {
-        "苹果", "葡萄", "香蕉", "橘子",
-    };
+    // private static String[] fruitsname = {
+        // "苹果", "葡萄", "香蕉", "橘子",
+    // };
     public Gamer(int money) {
         this.money = money;
     }
