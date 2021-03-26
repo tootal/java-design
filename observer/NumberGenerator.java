@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.Iterator;
 
 public abstract class NumberGenerator {
-    private ArrayList<Observer> observers = new ArrayList();
+    private ArrayList<Observer> observers = new ArrayList<Observer>();
     public void addObserver(Observer observer) {
         observers.add(observer);
     }
